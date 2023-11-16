@@ -1,5 +1,5 @@
 # call-center-vad
-a util to do human speech activity detection and extract the human speech from audio files (excluding music/tones, background noise, robot voice)
+a util to do human speech activity detection and cut the segments everything without human speech from audio files (excluding music/tones, robot voice)
 
 
 thank you snakers4/silero-vad
