@@ -19,8 +19,8 @@ def main():
      VADIterator,
      collect_chunks) = utils
 
-    input_file = '10_input.wav'
-    output_file = 'human_speech_extracted.wav'
+    input_file = 'min_1_input.wav'
+    output_file = 'min_1_human_speech_extracted.wav'
 
     wav = read_audio(input_file, sampling_rate=SAMPLING_RATE)
     speech_timestamps = get_speech_timestamps(wav, model, sampling_rate=SAMPLING_RATE)
